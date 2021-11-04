@@ -30,7 +30,7 @@
 				<configuration>
 					<oldVersion>
 						<dependency>
-							<groupId>com.cognitran.japicmp</groupId>
+							<groupId>com.github.siom79.japicmp</groupId>
 							<artifactId>japicmp</artifactId>
 							<version>0.6.0</version>
 						</dependency>
