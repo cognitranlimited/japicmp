@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<artifactId>japicmp-test-service-impl-base</artifactId>
-		<groupId>com.github.siom79.japicmp</groupId>
+		<groupId>com.cognitran.japicmp</groupId>
 		<version>0.15.5-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
@@ -11,12 +11,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test-service-impl-v1</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -39,7 +39,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-service-impl-v1</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -47,7 +47,7 @@
 									<destFileName>japicmp-test-service-impl-v1.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-service-impl-v2</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -55,7 +55,7 @@
 									<destFileName>japicmp-test-service-impl-v2.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-service-v1</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -63,7 +63,7 @@
 									<destFileName>japicmp-test-service-v1.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-service-v2</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -76,34 +76,34 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>com.github.siom79.japicmp</groupId>
+				<groupId>com.cognitran.japicmp</groupId>
 				<artifactId>japicmp-maven-plugin</artifactId>
 				<version>${project.version}</version>
 				<configuration>
 					<oldVersion>
 						<dependency>
-							<groupId>com.github.siom79.japicmp</groupId>
+							<groupId>com.cognitran.japicmp</groupId>
 							<artifactId>japicmp-test-service-impl-v1</artifactId>
 							<version>${project.version}</version>
 						</dependency>
 					</oldVersion>
 					<newVersion>
 						<dependency>
-							<groupId>com.github.siom79.japicmp</groupId>
+							<groupId>com.cognitran.japicmp</groupId>
 							<artifactId>japicmp-test-service-impl-v2</artifactId>
 							<version>${project.version}</version>
 						</dependency>
 					</newVersion>
 					<oldClassPathDependencies>
 						<dependency>
-							<groupId>com.github.siom79.japicmp</groupId>
+							<groupId>com.cognitran.japicmp</groupId>
 							<artifactId>japicmp-test-service-v1</artifactId>
 							<version>${project.version}</version>
 						</dependency>
 					</oldClassPathDependencies>
 					<newClassPathDependencies>
 						<dependency>
-							<groupId>com.github.siom79.japicmp</groupId>
+							<groupId>com.cognitran.japicmp</groupId>
 							<artifactId>japicmp-test-service-v2</artifactId>
 							<version>${project.version}</version>
 						</dependency>

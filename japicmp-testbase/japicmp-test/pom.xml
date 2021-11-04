@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.github.siom79.japicmp</groupId>
+		<groupId>com.cognitran.japicmp</groupId>
 		<artifactId>japicmp-testbase</artifactId>
 		<version>0.15.5-SNAPSHOT</version>
 	</parent>
@@ -11,23 +11,23 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test-v2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test2-v1</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test2-v2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -49,7 +49,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-v1</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -57,7 +57,7 @@
 									<destFileName>japicmp-test-v1.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test-v2</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -65,7 +65,7 @@
 									<destFileName>japicmp-test-v2.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test2-v1</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>
@@ -73,7 +73,7 @@
 									<destFileName>japicmp-test2-v1.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-test2-v2</artifactId>
 									<version>${project.version}</version>
 									<overWrite>true</overWrite>

@@ -15,7 +15,7 @@ japicmp is available in the Maven Central Repository:
 [![mvnrepository](https://img.shields.io/maven-central/v/com.github.siom79.japicmp/japicmp.svg)](https://mvnrepository.com/artifact/com.github.siom79.japicmp/japicmp)
 ``` xml
 <dependency>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp</artifactId>
 	<version>0.15.4</version>
 </dependency>
@@ -24,7 +24,7 @@ A maven plugin allows you to integrate the checks into your build:
 
 ``` xml
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>0.15.4</version>
 	<configuration>

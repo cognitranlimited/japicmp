@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
-		<groupId>com.github.siom79.japicmp</groupId>
+		<groupId>com.cognitran.japicmp</groupId>
 		<artifactId>japicmp-testbase</artifactId>
 		<version>0.15.5-SNAPSHOT</version>
 	</parent>
@@ -11,7 +11,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-ant-task</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -33,7 +33,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp</artifactId>
 									<version>${project.version}</version>
 									<type>jar</type>
@@ -43,7 +43,7 @@
 									<destFileName>japicmp-jar-with-dependencies.jar</destFileName>
 								</artifactItem>
 								<artifactItem>
-									<groupId>com.github.siom79.japicmp</groupId>
+									<groupId>com.cognitran.japicmp</groupId>
 									<artifactId>japicmp-ant-task</artifactId>
 									<version>${project.version}</version>
 									<type>jar</type>

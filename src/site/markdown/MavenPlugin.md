@@ -6,7 +6,7 @@ The maven plugin can be included in the pom.xml file of your artifact in the fol
 
 ```
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>0.15.4</version>
 	<configuration>
@@ -42,7 +42,7 @@ You can also leave out the &lt;oldVersion&gt; and &lt;newVersion&gt; elements:
 
 ```
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>0.15.4</version>
 	<configuration>
@@ -66,7 +66,7 @@ to configure the latest version more precisely (e.g. only GA versions), then you
 
 ```
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>0.15.4</version>
 	<configuration>
@@ -109,7 +109,7 @@ An advanced configuration can utilize the following parameters:
 <build>
 	<plugins>
 		<plugin>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-maven-plugin</artifactId>
 			<version>0.15.4</version>
 			<configuration>
@@ -351,7 +351,7 @@ Alternatively it can be used inside the `<reporting/>` tag in order to be invoke
 <reporting>
 	<plugins>
 		<plugin>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-maven-plugin</artifactId>
 			<version>0.15.4</version>
 			<reportSets>
@@ -374,24 +374,24 @@ To create a summary report, you can also provide multiple old and new versions:
 <configuration>
 	<oldVersions>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test-v1</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test2-v1</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</oldVersions>
 	<newVersions>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test-v2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>japicmp-test2-v2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -452,7 +452,7 @@ containing the script as dependency to the japicmp-plugin:
 
 ```
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>${project.version}</version>
 	<configuration>
@@ -464,7 +464,7 @@ containing the script as dependency to the japicmp-plugin:
 	</configuration>
 	<dependencies>
 		<dependency>
-			<groupId>com.github.siom79.japicmp</groupId>
+			<groupId>com.cognitran.japicmp</groupId>
 			<artifactId>post-analysis-script-artifact</artifactId>
 			<version>${project.version}</version>
 		</dependency>

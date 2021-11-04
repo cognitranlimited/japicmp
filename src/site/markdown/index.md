@@ -13,7 +13,7 @@ It can also be used as a library:
 japicmp is available in the Maven Central Repository:
 
 	<dependency>
-		<groupId>com.github.siom79.japicmp</groupId>
+		<groupId>com.cognitran.japicmp</groupId>
 		<artifactId>japicmp</artifactId>
 		<version>0.15.4</version>
 	</dependency>
@@ -22,7 +22,7 @@ A maven plugin allows you to integrate the checks into your build:
 
 ```
 <plugin>
-	<groupId>com.github.siom79.japicmp</groupId>
+	<groupId>com.cognitran.japicmp</groupId>
 	<artifactId>japicmp-maven-plugin</artifactId>
 	<version>0.15.4</version>
 	<configuration>

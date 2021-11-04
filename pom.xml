@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.siom79.japicmp</groupId>
+    <groupId>com.cognitran.japicmp</groupId>
     <artifactId>japicmp-base</artifactId>
     <version>0.15.5-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -346,14 +346,18 @@
 			<url>file://${user.dir}/target/deploy/site</url>
 		</site>
 		<snapshotRepository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>${sonatypeOssDistMgmtSnapshotsUrl}</url>
+			<uniqueVersion>false</uniqueVersion>
+			<id>cognitran-snapshots</id>
+			<name>Cognitran Snapshots</name>
+			<url>http://nexus.cognitran-cloud.com:8081/nexus/content/repositories/snapshots/</url>
+			<layout>default</layout>
 		</snapshotRepository>
 		<repository>
-			<id>sonatype-nexus-staging</id>
-			<name>Nexus Release Repository</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<uniqueVersion>false</uniqueVersion>
+			<id>cognitran-releases</id>
+			<name>Cognitran Releases</name>
+			<url>http://nexus.cognitran-cloud.com:8081/nexus/content/repositories/releases/</url>
+			<layout>default</layout>
 		</repository>
 	</distributionManagement>
 
